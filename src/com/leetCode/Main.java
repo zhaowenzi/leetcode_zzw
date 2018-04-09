@@ -6,12 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sb = new Scanner(System.in);
-        String x = sb.next();
-        ValidParentheses20 validParentheses20 = new ValidParentheses20();
-        System.out.println(validParentheses20.isValid(x));
+        int x = sb.nextInt();
+        ClimbingStairs70 climbingStairs70 = new ClimbingStairs70();
+        System.out.println(climbingStairs70.climbStairs(x));
 
-        System.out.println("Helloworld!");
-        System.out.println("Helloworld!");
+
 
     }
 
